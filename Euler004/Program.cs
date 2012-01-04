@@ -19,7 +19,7 @@ namespace Euler004
 			{
 				for (int j = 999; j > 0; j--)
 				{
-					if (IsPalindrome(i * j) && i * j > result)
+					if (i <= j && IsPalindrome(i * j) && i * j > result)
 					{
 						result = i * j;
 						maxi = i;
