@@ -42,6 +42,22 @@ namespace EulerUtils
 			return primes;
 		}
 
+		public static long FindNthPrime(int n)
+		{
+			List<long> primes = new List<long>();
+			primes.Add(2);
+			long i = 3;
+			while (primes.Count < n)
+			{
+				if (IsPrime(i, primes))
+				{
+					primes.Add(i);
+				}
+				i += 2;
+			}
+			return primes.Last();
+		}
+
 		public static bool IsPrime(long checkValue, List<long> primes)
 		{
 			bool isPrime = true;
