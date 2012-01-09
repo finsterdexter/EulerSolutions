@@ -11,8 +11,10 @@ namespace EulerUtils
 		// http://www.blackwasp.co.uk/PrimeFactors.aspx
 		public static List<long> FindPrimeFactors(long max)
 		{
-			List<long> primes = FindPrimeNumbers(max/2);
-			primes.Sort();
+			//List<long> primes = FindPrimeNumbers(max/2);
+			//primes.Sort();
+
+			List<long> primes = AtkinPrimes.Primes;
 			List<long> output = new List<long>();
 			foreach (long prime in primes)
 			{
@@ -72,6 +74,30 @@ namespace EulerUtils
 			}
 
 			return isPrime;
+		}
+
+		public static List<int> FindDivisors(int n)
+		{
+			IEnumerable<int> divisors = from a in Enumerable.Range(2, n / 2)
+				   where n % a == 0
+				   select a;
+			List<int> output = divisors.ToList();
+			output.Add(1);
+			output.Add(n);
+			output.Sort();
+			return output.Distinct().ToList();
+		}
+
+		// http://mathforum.org/library/drmath/view/55843.html
+		public static int FindNumberOfDivisors(int n)
+		{
+			int total = 1;
+			List<long> primeFactors = FindPrimeFactors(n);
+			foreach (long prime in primeFactors.Distinct())
+			{
+				total *= (primeFactors.Count(i => i == prime) + 1);
+			}
+			return total;
 		}
 
 	}
