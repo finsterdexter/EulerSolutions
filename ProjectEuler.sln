@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "derp", "derp\derp.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler012", "Euler012\Euler012.csproj", "{92429319-086A-475B-97A8-21849D437BBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler013", "Euler013\Euler013.csproj", "{E202D685-D140-4AD7-A506-21BE0B0FF22A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,16 @@ Global
 		{92429319-086A-475B-97A8-21849D437BBC}.Release|Mixed Platforms.Build.0 = Release|x86
 		{92429319-086A-475B-97A8-21849D437BBC}.Release|x86.ActiveCfg = Release|x86
 		{92429319-086A-475B-97A8-21849D437BBC}.Release|x86.Build.0 = Release|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Debug|x86.ActiveCfg = Debug|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Debug|x86.Build.0 = Debug|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Release|Any CPU.ActiveCfg = Release|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Release|x86.ActiveCfg = Release|x86
+		{E202D685-D140-4AD7-A506-21BE0B0FF22A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
