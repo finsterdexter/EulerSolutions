@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Numerics;
 
 namespace EulerUtils
 {
@@ -98,6 +99,26 @@ namespace EulerUtils
 				total *= (primeFactors.Count(i => i == prime) + 1);
 			}
 			return total;
+		}
+
+		public static BigInteger Factorial(BigInteger n)
+		{
+			if (n == 1)
+			{
+				return n;
+			}
+			else if (n == 0)
+			{
+				return 1;
+			}
+			else if (n < 0)
+			{
+				throw new ArgumentOutOfRangeException("n", "n must be non-negative");
+			}
+			else
+			{
+				return n * Factorial(n - 1);
+			}
 		}
 
 	}
