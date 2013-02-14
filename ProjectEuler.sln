@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler001", "Euler001\Euler001.csproj", "{DA42231A-B648-4C17-8659-461026252D28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler002", "Euler002\Euler002.csproj", "{581407DB-9FC1-4903-90ED-8E6AEB7B2D38}"
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler017", "Euler017\Euler017.csproj", "{59398966-3004-4108-8FD3-A20E076007A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler016", "Euler016\Euler016.csproj", "{90614B41-FDEC-4394-9A5D-8E77AE1B2EBA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Euler027", "Euler027\Euler027.pyproj", "{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,12 @@ Global
 		{90614B41-FDEC-4394-9A5D-8E77AE1B2EBA}.Release|Mixed Platforms.Build.0 = Release|x86
 		{90614B41-FDEC-4394-9A5D-8E77AE1B2EBA}.Release|x86.ActiveCfg = Release|x86
 		{90614B41-FDEC-4394-9A5D-8E77AE1B2EBA}.Release|x86.Build.0 = Release|x86
+		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
