@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler016", "Euler016\Euler0
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Euler027", "Euler027\Euler027.pyproj", "{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Euler020", "Euler020\Euler020.pyproj", "{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,12 @@ Global
 		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CDAEBA1E-9B3C-41C5-910C-90C1BE3CFD49}.Release|x86.ActiveCfg = Release|Any CPU
+		{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{95CA0672-ED2D-4E53-ADF1-120D6CFA8DBC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
