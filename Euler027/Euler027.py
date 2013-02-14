@@ -27,6 +27,6 @@ for b in range(-1000, 1000):
 
         # print "n^2 + %d * n + %d : %d" % (a, b, n)
 
-print "n^2 + %d * n + %d gives %d consecutive primes!" % (largest_n[0], largest_n[1], largest_n[2])
+print "n^2 + %d * n + %d gives %d consecutive primes!" % (largest_n[1], largest_n[2], largest_n[0])
 
 raw_input()
